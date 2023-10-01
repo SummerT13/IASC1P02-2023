@@ -1,0 +1,35 @@
+body {
+  background-color: blue;
+}
+
+p {
+  text-align: left;
+  font-family: Arial;
+  font-size: 15px;
+  color: magenta;
+  margin: 5px;
+}
+
+#blackBox {
+  margin: 10%;
+  border: solid black 4px;
+  padding: 0px;
+}
+
+#greenBox {
+  margin: 20px;
+  border: dashed green 1px;
+}
+
+#yellowBox {
+  border: dashed yellow 1px;
+  padding: 15px;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
