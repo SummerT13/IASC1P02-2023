@@ -1,6 +1,7 @@
-function total() {
-  var firstone = document.getElementById("firstnumber").value;
-  var secondone = document.getElementById("secondnumber").value;
-  var numbers = Number(firstone) + Number(secondone);
-  document.getElementById("sum").innerHTML = numbers;
+document.write("Zero");
+
+function theRest() {
+  document.getElementById("output1").innerHTML = "One";
+  document.getElementById("output2").innerHTML = "Two";
+  document.getElementById("output3").innerHTML = "Three";
 }
