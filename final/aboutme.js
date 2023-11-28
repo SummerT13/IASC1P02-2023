@@ -17,7 +17,7 @@ function switchToLife() {
   life.style.display = "block";
 }
 
-lifeButton.onclick = switchTolife;
+lifeButton.onclick = switchToLife;
 
 function switchToInterests() {
   switchOffEverything();
