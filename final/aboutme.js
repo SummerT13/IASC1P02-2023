@@ -1,10 +1,10 @@
-var life = document.getElementById("school");
+var life = document.getElementById("life");
 var interests = document.getElementById("interests");
-var family = document.getElementById("goals");
+var family = document.getElementById("family");
 
-var lifeButton = document.getElementById("schoolButton");
+var lifeButton = document.getElementById("lifeButton");
 var interestsButton = document.getElementById("interestsButton");
-var familyButton = document.getElementById("goalsButton");
+var familyButton = document.getElementById("familyButton");
 
 function switchOffEverything() {
   life.style.display = "none";
