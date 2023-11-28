@@ -1,0 +1,120 @@
+html {
+  font-family: "Solway", serif;
+}
+
+body {
+  background-color: #edf5e1;
+}
+#Header {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 65px;
+  background-color: #05386b;
+}
+
+#Header h1 {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: 10px;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 2s steps(200, end), blink-caret 0.75s step-end infinite;
+  color: #edf5e1;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+#Name {
+  float: left;
+}
+#Navigation {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #edf5e1;
+}
+
+#Navigation h3 {
+  display: inline-block;
+  margin: 20px 25px;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  clear: both;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  color: #05386b;
+}
+
+#titles {
+  width: 390px;
+  margin: 0 auto;
+}
+
+#titles h3 {
+  display: inline-block;
+  margin: 40px 30px;
+  cursor: pointer;
+}
+
+#life {
+  display: block;
+}
+
+#interests {
+  display: none;
+}
+
+#family {
+  display: none;
+}
+
+.subsection {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.subsection h4 {
+  text-decoration: underline;
+  margin: 0;
+  padding-left: 5px;
+  background-color: #379683;
+}
+
+.subsection p {
+  margin: 0;
+  background-color: #8ee4af;
+}
+
+#Footer {
+  position: absolute;
+  bottom: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  background-color: #05386b;
+}
+
+#Info {
+  position: absolute;
+  margin-left: 10px;
+  color: #edf5e1;
+}
+
+#Clock {
+  float: right;
+  margin-right: 20px;
+  color: #edf5e1;
+}
